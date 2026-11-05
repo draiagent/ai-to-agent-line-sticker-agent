@@ -2,7 +2,7 @@
 
 LICENSE沿用原始套件MIT條款；適用程式與文字文件。
 
-assets/vac-line-sticker.png為本次對話由使用者提供品牌與視覺參考、經AI生成及修訂的任務圖卡。examples/rest-break中的圖片為本次實作的AI輔助生成與處理樣板。
+assets/vac-line-sticker.png為本次對話由使用者提供品牌與視覺參考、經AI生成及修訂的任務圖卡。assets/knowledge/01.png至04.png為同樣方式生成的知識圖卡，圖卡中的Logo為生成圖像，與提供的原始標誌仍有造型差異。examples/rest-break中的圖片為本次實作的AI輔助生成與處理樣板。
 
 公司Logo、人物肖像、角色設計及所有圖片不包含於MIT授權；本Repo展示不等於授予第三方商用、改作或商標使用權。使用者須就自己的素材取得必要權利。品牌署名不是法律權利人的認定。
 

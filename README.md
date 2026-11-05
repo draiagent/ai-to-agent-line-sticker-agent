@@ -58,6 +58,22 @@ python scripts/sticker.py package --input-dir output --output output/stickers.zi
 
 package僅打包資料夾中的PNG，不代表套組數量、main/tab或審核內容已通過。上傳前由Agent逐項完成[驗收清單](docs/acceptance.md)。
 
+## 四張知識圖卡
+
+| 頁次 | 主題 |
+|---|---|
+| [01](assets/knowledge/01.png) | 小秘書：為什麼交給Agent |
+| [02](assets/knowledge/02.png) | 圖片＋VAC：如何交代任務 |
+| [03](assets/knowledge/03.png) | 整組驗收與上架 |
+| [04](assets/knowledge/04.png) | 陳董：保存可重用方法 |
+
+![知識圖卡01](assets/knowledge/01.png)
+![知識圖卡02](assets/knowledge/02.png)
+![知識圖卡03](assets/knowledge/03.png)
+![知識圖卡04](assets/knowledge/04.png)
+
+圖卡中的Logo為生成圖像，與原始標誌仍有造型差異，不宣稱品牌一致驗收通過，見[VSA](docs/vsa-style.md)。
+
 ## 專案內容
 
 | 路徑 | 內容 |
@@ -71,10 +87,16 @@ package僅打包資料夾中的PNG，不代表套組數量、main/tab或審核�
 | scripts/sticker.py | 輔助製作及技術檢查 |
 | examples/rest-break/ | 單張靜態、動態及預覽樣板 |
 | RELEASE_NOTES.md | 版本發布說明 |
+| assets/knowledge/ | 四張精簡知識圖卡 |
+| docs/social-article.md | 新手導向社群文章（另有docs/article.md原文） |
+| docs/vsa-style.md | 知識圖卡的VSA奢華暗境／黑金規範 |
+| docs/publishing.md | LINE Creators Market上架流程 |
+| docs/assets.md | 素材來源與範圍 |
+| examples/batch-8.md | 第一批八張的任務範例 |
 
 ## 版本與後續
 
-v0.3.0，2026-11-01。由既有v1檔名的初始套件整理而來；舊套件無SemVer版本宣告，本版仍屬樣板驗證階段。後續先依新版VAC完成清晰、無殘影的合格樣板，再進行完整8張套組與實際上傳驗收，不列為已完成功能。
+v0.4.0，2026-11-05。0.4.0併入另一路線的0.1.0教材包（知識圖卡、社群文章、VSA、上架流程、八張任務範例），0.3.0的程式、技能與MIT授權不變；0.3.0由既有v1檔名的初始套件整理而來；舊套件無SemVer版本宣告，本版仍屬樣板驗證階段。後續先依新版VAC完成清晰、無殘影的合格樣板，再進行完整8張套組與實際上傳驗收，不列為已完成功能。
 
 ## 授權
 
